@@ -10,7 +10,10 @@ export const Navbar = () => {
       <div className="flex items-center gap-4">
         <img src={HelpIcon} alt="help" className="w-5 h-5" />
         <img src={NotificationIcon} alt="bell" className="w-5 h-5" />
-        <button type="button" className="flex flex-row items-center gap-2 border border-b-[#E0E0E0] rounded-md px-3 h-12">
+        <button
+          type="button"
+          className="flex flex-row items-center gap-2 border border-b-[#E0E0E0] rounded-md px-3 h-12"
+        >
           <img src={User} alt="user-profile" className="w-8 h-8" />
           <span className="font-medium">Abhishek Mohanty</span>
           <img src={ArrowDownIcon} alt="bell" className="w-5 h-5" />

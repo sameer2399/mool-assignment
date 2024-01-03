@@ -36,11 +36,11 @@ export const Accordian = ({
       </div>
       {expand ? (
         <div className="w-full border border-[#E6E9EE] rounded-b-md border-t-0">
-            <div className="px-6 py-4 flex items-center justify-between text-sm font-medium text-[#667085] border-b border-[#D9D9DC]">
+          <div className="px-6 py-4 flex items-center justify-between text-sm font-medium text-[#667085] border-b border-[#D9D9DC]">
             <p>Item</p> <p>Amount ( in INR)</p>
           </div>
           <div className="px-6 py-4">{children}</div>
-        </div> 
+        </div>
       ) : null}
     </div>
   );

@@ -11,7 +11,9 @@ export const Warning = () => {
       />
       <div className="ml-28">
         <p className="text-[#96302A] text-lg font-bold">Amount Not Declared</p>
-        <p className="text-[#C84038] font-medium">You will miss out on lot of tax benifits</p>
+        <p className="text-[#C84038] font-medium">
+          You will miss out on lot of tax benifits
+        </p>
       </div>
     </div>
   );

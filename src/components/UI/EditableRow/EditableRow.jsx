@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import EditIcon from "../../../assets/edit.svg";
 
-const EditAmount = ({val, id, section, updateAmount }) => {
+const EditAmount = ({ val, id, section, updateAmount }) => {
   const [amount, setAmount] = useState(val);
 
   const handleChange = (e) => {
@@ -19,7 +19,14 @@ const EditAmount = ({val, id, section, updateAmount }) => {
   );
 };
 
-export const EditableRow = ({resetEdit, id, label, amount, updateAmount, section }) => {
+export const EditableRow = ({
+  resetEdit,
+  id,
+  label,
+  amount,
+  updateAmount,
+  section,
+}) => {
   const [isEditing, setIsEditing] = useState(false);
 
   useEffect(() => {

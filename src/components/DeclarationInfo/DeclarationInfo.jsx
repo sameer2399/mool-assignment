@@ -26,22 +26,22 @@ export const DeclarationInfo = () => {
     return iconMap[section];
   };
 
-  const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+  const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
   const handleSave = async () => {
     await delay(1000);
-  
+
     console.log(data);
     setResetEdit(true);
-  
+
     await delay(200);
-  
+
     setResetEdit(false);
   };
 
   if (loading) {
     return <p>Loading...</p>;
-  }else if (error && !data) {
+  } else if (error && !data) {
     return <p className="text-red-600 text-center text-lg">{error}</p>;
   }
   return (
