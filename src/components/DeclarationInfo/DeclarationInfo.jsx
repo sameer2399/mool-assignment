@@ -82,7 +82,7 @@ export const DeclarationInfo = () => {
           <span className="text-[#405CD2] font-semibold">Change</span>
         </div>
         <div className="flex gap-2 mt-4">
-          <div className="border-2 border-[#10AA64] rounded-full w-5 h-5 mt-[6px ] flex items-center justify-center text-[#10AA64] text-xs font-bold">
+          <div className="border-2 border-[#10AA64] rounded-full w-5 h-5 mt-[6px] flex items-center justify-center text-[#10AA64] text-xs font-bold">
             i
           </div>
           <p className="text-[#10AA64] text-sm font-medium max-w-[480px]">
