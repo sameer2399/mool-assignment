@@ -42,7 +42,7 @@ export const DeclarationInfo = () => {
   if (loading) {
     return <p>Loading...</p>;
   }else if (error && !data) {
-    return <p className="text-red-600 mx-auto text-lg">{error}</p>;
+    return <p className="text-red-600 text-center text-lg">{error}</p>;
   }
   return (
     <div className="w-full">

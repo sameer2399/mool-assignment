@@ -15,7 +15,6 @@ const useFetchData = () => {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
-            "X-Master-Key": "$2b$10$your_master_key_here", // Replace with your master key
           },
         });
 
@@ -51,7 +50,6 @@ const useFetchData = () => {
   }, []);
 
   const updateAmount = (section, id, newAmount) => {
-    console.log({ section, id, newAmount });
     if (data && data.formattedData && data.formattedData[section]) {
       const updatedData = data.formattedData[section].map((item) =>
         item.id === id ? { ...item, amount: newAmount } : item
