@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="">
       <Navbar />
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-5xl mx-auto md:py-8 p-4">
         <ActionBar />
         <DeclarationInfo/>
       </div>

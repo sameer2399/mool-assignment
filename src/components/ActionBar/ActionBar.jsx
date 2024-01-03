@@ -1,9 +1,9 @@
 import React from "react";
 import Calender from "../../assets/calendar.svg";
 
-export const ActionBar = () => {
+export const ActionBar = ({date}) => {
   return (
-    <div className="flex justify-between my-8 px-8">
+    <div className="flex justify-between mb-8 px-8">
       <h3 className="text-[24px] font-bold text-[#344054]">Chapter VI-A</h3>
 
       <div className="flex items-center">
