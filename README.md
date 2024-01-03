@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Overview
+The project consists of three main components: `Navbar`, `ActionBar`, and `DeclarationInfo`. Within DeclarationInfo, several UI components are implemented, such as `Accordion`, `AmountCard`, `EditableRow`, and `Warning`.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -33,5 +36,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 The project utilizes a custom hook named `useFetchData.js` for efficient data fetching with proper error handling. This custom hook incorporates asynchronous operations and handles data formatting to improve readability.
 In the code snippet above, the fetched data `(res.record)` is formatted using `reduce` and `Object.entries` to group the data by section. The result is stored in `formattedData`, and additional metadata is stored in `metaData`. This formatting enhances the structure and readability of the data.
 
-### Overview
-The project consists of three main components: Navbar, ActionBar, and DeclarationInfo. Within DeclarationInfo, several UI components are implemented, such as Accordion, AmountCard, EditableRow, and Warning.
