@@ -120,7 +120,7 @@ export const DeclarationInfo = () => {
           </Accordian>
         ))}
       </div>
-      ;
+      
       <button
         className="px-4 py-[10px] bg-[#405CD2] text-sm font-semibold text-white rounded-md mt-12"
         onClick={handleSave}
